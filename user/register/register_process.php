@@ -1,7 +1,7 @@
 <?php
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
     // เชื่อมต่อฐานข้อมูล (ให้แก้ไขตามการเชื่อมต่อของคุณ)
-    require_once '../connect.php';
+    require_once '../../connect.php';
 
     // ดึงข้อมูลจากฟอร์ม
     $name = isset($_POST["name"]) ? $_POST["name"] : "";
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
         if ($conn->query($sql) === TRUE) {
             // สมัครสมาชิกสำเร็จ ให้เด้งไปยังหน้า login
-            header("Location: ../login/login.php");
+            header("Location: ../../login/login.php");
             exit(); // ต้องใส่ exit() เพื่อให้ระบบหยุดการทำงานทันทีหลังจากเด้งไปหน้าใหม่
         } else {
             echo "การสมัครสมาชิกล้มเหลว: " . $conn->error;

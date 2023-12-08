@@ -9,7 +9,7 @@
 </head>
 
     <body>
-    <img src="../image/bg.png" alt="Logo" height="650"> 
+    <img src="../../image/bg.png" alt="Logo" height="650"> 
         <div class="card">
             <h1>สมัครสมาชิก</h1>
             <form method="post" action="register_process.php">
