@@ -25,9 +25,9 @@
             <label for="password">รหัสผ่าน:</label>
             <input type="password" id="password" name="password" required><br>
 
-            <button type="submit">เข้าสู่ระบบ <a href="#"></a></button>
+            <button type="submit">เข้าสู่ระบบ<a href="#"></a></button>
         </form>
-        <p>ไม่มีบัญชี? <a href="../admin/announce.php">สมัคร</a></p>
+        <p>ไม่มีบัญชี? <a href="../user/register/register.php">สมัคร</a></p>
 
 
     </div>

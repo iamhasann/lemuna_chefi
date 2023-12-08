@@ -90,7 +90,7 @@
        include 'header.php';//ดึง header มาแสดง
     ?>
     <div>
-        <div class="text"><h1>ตรวจสอบผู้ผ่านการอบรม</h1></div>
+        <div class="text"><h1>ตรวจสอบผู้ผ่านการอบรม </h1></div>
     </div>
     <div class="search-container">
         <input type="text" placeholder="Search...">
