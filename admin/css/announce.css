@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com');
+
+* {
+    padding: 0;
+    
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: #dfe9f5;
+}
+
+.text {
+    display: flex;
+    justify-content: center; /* จัดให้อยู่ตรงกลางในแนวนอน */
+    margin-top: 50px;
+    margin-left: 60px;
+    text-align: center; /* จัดให้ข้อความอยู่ตรงกลางในแนวนอน */
+}
+
+/* ปรับสไตล์ของปุ่ม "เพิ่มข้อมูล" */
+.add-data-btn {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 750px;
+}
+
+.add-data-btn:hover {
+    background-color: #0056b3;
+}

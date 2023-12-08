@@ -1,0 +1,49 @@
+.tab-bar {
+    overflow: hidden;
+    position: relative;
+}
+
+.tab-bar img {
+    height: 100px; /* ปรับความสูงของโลโก้ตามที่คุณต้องการ */
+    position: absolute;
+    top: 50%; /* ย้ายโลโก้ไปที่ตรงกลางแนวดิ่ง */
+    transform: translateY(-50%);
+    margin-left: 10px; /* ระยะห่างของโลโก้จากขอบซ้าย */
+}
+
+.tab-bar a {
+    float: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 16px;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.tab-bar a:hover {
+    background-color: #021403;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    /* padding: 25px; */
+}
+
+.main-content {
+    text-align: center;
+}
+
+a {
+    display: block;
+    margin: 20px;
+    /* background-color: #36f88d; */
+    text-decoration: none;
+    border-radius: 10px;
+    height: 17px;
+}
+      
+.img-column1{
+    text-align: center;
+}
